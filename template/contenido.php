@@ -1,5 +1,11 @@
-<?php $this->layout('template'); ?>
-<?php $this->start('menu'); ?>
-El bloque "section" del menu
+<?php
+//utilizar el diseño template para mostrar contenido
+$this->layout('template');
+//crear una section para el menu
+$this->start('menu');
+?>
+Bloque "section" MENU
 <?php $this->stop(); ?>
-Contenido de home
+
+<!-- section content -->
+Content de contenido
